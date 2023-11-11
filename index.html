@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="style.css">
+    <title>Cali-Zones | Home</title>
+<script src="/nav.js"></script> 
+</head>
+<body class="homeBody">
+    <header>
+        <nav>
+            <div class="navbar">
+              <div class="container nav-container">
+                  <input class="checkbox" type="checkbox">
+                  <div class="hamburger-lines">
+                    <span class="line line1"></span>
+                    <span class="line line2"></span>
+                    <span class="line line3"></span>
+                  </div> 
+                  <div class="shoppingCartContainer">
+                    <div class="shoppingCart">
+                      <button id="shoppingCartBtn" class="shoppingCartBtn" onclick="showCart()">
+                        <img class="shoppingCartImg" src="./Images/icon/shopping_cart.svg">
+                      <span class="shoppingCartCounter">0</span>
+                    </button>
+                    </div>
+                  </div> 
+                <div class="logo">
+                    <h1><span style="color:#e54e17 ;">Cali</span>Zones</h1></div>
+                <div class="menu-items">
+                  <li><a href="./index.html">Home</a></li>
+                  <li><a href="./menu.html">Menu</a></li>
+                  <li><a href="#">Login | Signup</a></li>
+                  <li><a href="#">Contact</a></li>
+                </div>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <main class="homeContainer">
+          <div id="cart-menu">
+      <button id="cart-close-button" onclick="closeCart()">X</button>
+
+      <div id="cart-container">
+          <div class="cart-content">
+              <!-- <p id="cart-item-list"></p> -->
+
+          </div>
+      </div>
+  </div>
+      <div class="orderNowContainer">
+        <div class="OrderNowCTA">
+          <H1>Why wait? <br> Order before you arrive!</H1>
+          <br>
+          <a class="orderNowBtn" href="./menu.html">Order Now</a>
+          
+        </div>  
+      </div>
+      <div class="aboutContainer containerStyling">
+        <h1>Welcome to <span style="color:#e54e17 ;">Cali</span>Zones</h1>
+        <h3>Why Calzones and Empanadas you ask?</h3>
+        <p>Portability is key. We know how hard it can be to sit down and eat when you’re pressed for time. We feel you shouldn’t have to slow down due to hunger striking. Here at CaliZones, we specialize in food that will keep you on the go without sacrificing your time and settling for something of lesser quality.</p>
+        <div class="pic1"></div>
+        <br>
+        <div class="pic2"></div>
+        <h3>Quality food begins with quality ingredients.</h3>
+        <p>We believe fresher food produces the best nutrients, and we know there is no substitute for quality, so we source our produce locally. All of our vendors grow our ingredients GMO-free.</p>
+        <div class="pic3"></div>
+        <br>
+        <div class="pic4"></div>
+      </div>
+      <div class="givingBackContainer containerStyling">
+        <h3>Giving Back </h3>
+        <p>Have a charity in mind? You may have a chance at creating a menu item (temporarily), with 10% of the sales going to the charity of your choice. (45-60 days.) </p>
+        
+        <div class="charityForm">
+          <form id="input-field" action="https://formsubmit.co/mikebecoding@yahoo.com" method="POST">
+            <input type="text" id="name" name="name" placeholder="Full Name" required=""> <br>
+            <input type="text" id="companyName" name="companyName" placeholder="Charity Name (optional)"> <br>
+            <input type="email" id="email" name="email" placeholder="Email" required=""> <br>
+            <input type="text" id="subject" name="subject" placeholder="Subject"> <br>
+            <textarea id="message" name="message" placeholder="Message..."></textarea> <br><br>
+            <input type="hidden" name="_subject" value="New submission!">
+            <input type="hidden" name="_template" value="box">
+            <input type="hidden" name="_next" value="https://mikebecoding.github.io/thanks.html">
+            <button type="submit" class="btnStyling" id="contactSubmitBtn">Submit</button>            
+        </form>
+        </div>
+      </div>
+      <div class="googleMapsContainer containerStyling">
+        <h3>Today's Location:</h3>
+        <div class="googleMaps">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3138.3105215312253!2d-122.22077838402038!3d38.13297197969592!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808572d6898c6abd%3A0x9f904838c5ad7c00!2sTurner%20Pkwy%2C%20Vallejo%2C%20CA%2094591!5e0!3m2!1sen!2sus!4v1658248820310!5m2!1sen!2sus" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <h3>Schedule:</h3>
+        <p>Week 1: Northbay 12:00 - 18:00 <br> Week 2: Eastbay 12:00 - 18:00 <br> Week 3: Southbay 12:00 - 18:00 <br> Week 4: Northbay 12:00 - 18:00</p>
+      </div>
+
+    </main>
+    <footer class="containerStyling">
+      <h3> Follow us on social media for updates on our exact location</h3>
+      <button></button>
+    </footer>
+
+   
+<script src="app.js"></script> 
+</body>
+</html>

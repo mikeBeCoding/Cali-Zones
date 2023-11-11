@@ -1,0 +1,135 @@
+ [
+    
+    {
+        "id": "0",
+
+        "title": "Cali Spesh (Special)",
+        "ingredients": [ "Pepperoni" , "Bell Peppers" , "Onion" , "Sausage" , "Olives" , "Mushrooms"],
+        "deepFry": null,
+        "airFry": null,
+        "baked": null,
+        "combo": null,
+        "vegan": null,
+        "price": 8.99
+    },
+    {
+        "id": "1",
+
+        "title": "I Eat Cheese Though",
+        "ingredients": ["Cheddar", "Mozzarella" , "Parmesan" , "Colby Jack" ],
+        "deepFry": null,
+        "airFry": null,
+        "baked": null,
+        "combo": null,
+        "vegan": null,
+        "price": 8.99
+    },    
+    {
+        "id": "2",
+
+        "title": "Mother Nature",
+       "ingredients": [ "Spinach", "Artichoke Hearts", "Bell Peppers", "Onions", "Olives", "Mushrooms"],
+        "deepFry": null,
+        "airFry": null,
+        "baked": null,
+        "combo": null,
+        "vegan": null,
+        "price": 8.99
+    },    
+    {
+        "id": "3",
+
+        "title": "Meat Package",
+        "ingredients": ["Pepperoni" , "Bacon" , "Sausage" ,"Ham"],
+        "deepFry": null,
+        "airFry": null,
+        "baked": null,
+        "combo": null,
+        "vegan": null,
+        "price": 8.99
+    },    
+    {
+        "id": "4",
+
+        "title": "One Of Those People",
+        "ingredients": ["Pineapples" , "Olives" , "Mushrooms"],
+        "deepFry": null,
+        "airFry": null,
+        "baked": null,
+        "combo": null,
+        "vegan": null,
+        "price": 8.99
+    },    
+    {
+        "id": "5",
+
+        "title": "Quit Your Hawaiian'in",
+        "ingredients": [ "Pineapples" , "Ham" , "Bacon" ],
+        "deepFry": null,
+        "airFry": null,
+        "baked": null,
+        "combo": null,
+        "vegan": null,
+        "price": 8.99
+    },    
+    {
+        "id": "6",
+
+        "title": "Indecisive | What Do You Think?",
+        "ingredients": ["Pepperoni" ],
+        "deepFry": null,
+        "airFry": null,
+        "baked": null,
+        "combo": null,
+        "vegan": null,
+        "price": 8.99
+    },    
+    {
+        "id": "7",
+
+        "title": "Create Your Own",
+        "ingredients": [],
+        "deepFry": null,
+        "airFry": null,
+        "baked": null,
+        "combo": null,
+        "vegan": null,
+        "price": 8.99
+    },    
+    {
+        "id": "item9",
+
+        "title": "Cheeseburger",
+        "ingredients": ["Burger Patty", "Cheddar", "Ketchup", "Onion", "Pickles"],
+        "deepFry": null,
+        "airFry": null,
+        "baked": null,
+        "combo": null,
+        "vegan": null,
+        "price": 7.99
+    },    
+    {
+        "id": "item10",
+
+        "title": "Mac Attack",
+        "ingredients": ["Cheddar", "Parmesan", "Colby Jack", "Macaroni Noodles"],
+        "deepFry": null,
+        "airFry": null,
+        "baked": null,
+        "combo": null,
+        "vegan": null,
+        "price": 7.99
+    },    
+    {
+        "id": "item11",
+
+        "title": "Samosas Style",
+        "ingredients": [ "Potato", "Onion", "Peas" ],
+        "deepFry": null,
+        "airFry": null,
+        "baked": null,
+        "combo": null,
+        "vegan": null,
+        "price": 7.99
+    }
+]

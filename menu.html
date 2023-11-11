@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Cali-Zones | Menu</title>
+<script src="/app.js" defer></script>
+
+</head>
+<body class="homeBody">
+    <header>
+        <nav>
+            <div class="navbar">
+              <div class="container nav-container">
+                  <input class="checkbox" type="checkbox">
+                  <div class="hamburger-lines">
+                    <span class="line line1"></span>
+                    <span class="line line2"></span>
+                    <span class="line line3"></span>
+                  </div> 
+                  <div class="shoppingCartContainer">
+                    <div class="shoppingCart">
+                      <button id="shoppingCartBtn" class="shoppingCartBtn" onclick="showCart()">
+                        <img class="shoppingCartImg" src="./Images/icon/shopping_cart.svg">
+                      <span id="shoppingCartCounter" class="shoppingCartCounter">0</span>
+                    </button>
+                    </div>
+                  </div> 
+                <div class="logo">
+                    <h1><span style="color:#e54e17 ;">Cali</span>Zones</h1></div>
+                <div class="menu-items">
+                  <li><a href="./index.html">Home</a></li>
+                  <li><a href="./menu.html">Menu</a></li>
+                  <li><a href="#">Login | Signup</a></li>
+                  <li><a href="#">Contact</a></li>
+                </div>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <main class="mainMenuContainer homeContainer">
+        <div id="cart-menu">
+            <button id="cart-close-button" onclick="closeCart()">X</button>
+
+            <div id="cart-container">
+
+                <div class="cart-content">
+
+                    <p id="cart-empty"></p>
+
+                    <ol id="cart-item-list"></ol>
+
+                </div>
+            </div>
+        </div>
+        <div class="pic5">
+            <div class="menuTitle">
+                <h1>Menu</h1>
+            </div>
+        </div>
+
+        <div id="foodList">
+
+         <section class="calzoneMenu containerStyling">
+         <p> * Orders exceeding 9 must order in person. </p>
+
+            <h1>Calzone Menu: $8.99</h1>
+         <p> * All items can be substituted for vegan variants. </p>
+
+            <div id="item1" class="item1 foodBox" name="item1">
+                <h3>Cali Spesh (Special)</h3>
+                <p>Traditional Combo Style: Pepperoni, Bell Peppers, Onions, Sausage, Olives, and Mushrooms. </p>
+
+                <label for="vegan">Vegan?</label>
+                <input type="checkbox" id="veganCB" name="cookStyle">
+                <label for="combo">Combo + $2</label>
+                <input type="checkbox" id="comboCB" name="cookStyle">
+
+                <div class="cooking-submit">
+
+                    <label for="deepFry">Deep Fry:</label>
+                    <input type="radio" id="deepFryRadio0" class="deepFryRadio" name="cookStyle">
+
+                    <label for="airFry">Air Fry:</label>
+                    <input type="radio" id="airFryRadio" name="cookStyle">
+
+                    <label for="bake">Bake:</label>
+                    <input type="radio" id="bakeRadio" name="cookStyle">
+
+                    <button id="submit1" class="btnStyling submit">Add</button>
+                </div>
+
+            </div>            
+            <div id="item2" class="item2 foodBox">
+                <h3>I Eat Cheese Though</h3>
+                <p>Four cheese blend. </p>
+
+                <label for="vegan">Vegan?</label>
+                <input type="checkbox" id="veganCB" name="vegan">
+                <label for="combo">Combo + $2</label>
+                <input type="checkbox" id="comboCB" name="combo">
+
+                <div class="cooking-submit">
+
+                    <label for="deepFry">Deep Fry:</label>
+                    <input type="radio" id="deepFryRadio1" class="deepFryRadio" name="cookStyle">
+
+                    <label for="airFry">Air Fry:</label>
+                    <input type="radio" id="airFryRadio" name="cookStyle">
+
+                    <label for="bake">Bake:</label>
+                    <input type="radio" id="bakeRadio" name="cookStyle">
+
+                    <button id="submit2" class="btnStyling submit">Add</button>
+                </div>
+            </div>   
+
+            <div id="item3" class="item3 foodBox">
+                <h3>Mother Nature</h3>
+                <p>Spinach, Artichoke Hearts, Bell Peppers, Onions, Olives, and Mushrooms. </p>
+
+                <label for="vegan">Vegan?</label>
+                <input type="checkbox" id="vegan" name="cookStyle">
+                <label for="combo">Combo + $2</label>
+                <input type="checkbox" id="combo" name="cookStyle">
+
+                <div class="cooking-submit">
+
+                    <label for="deepFry">Deep Fry:</label>
+                    <input type="radio" id="deepFryRadio2" class="deepFryRadio" name="cookStyle">
+
+                    <label for="airFry">Air Fry:</label>
+                    <input type="radio" id="airFry" name="cookStyle">
+
+                    <label for="bake">Bake:</label>
+                    <input type="radio" id="bake" name="cookStyle">
+
+                    <button id="submit3" class="btnStyling submit">Add</button>
+                </div>
+            </div>  
+
+            <div id="item4" class="item4 foodBox">
+                <h3>Meat Package</h3>
+                <p>Meat Lovers: Pepperoni, Bacon, Sausage, Ham. </p>
+
+                <label for="vegan">Vegan?</label>
+                <input type="checkbox" id="vegan" name="cookStyle">
+                <label for="combo">Combo + $2</label>
+                <input type="checkbox" id="combo" name="cookStyle">
+
+                <div class="cooking-submit">
+
+                    <label for="deepFry">Deep Fry:</label>
+                    <input type="radio" id="deepFryRadio3" class="deepFryRadio" name="cookStyle">
+
+                    <label for="airFry">Air Fry:</label>
+                    <input type="radio" id="airFry" name="cookStyle">
+
+                    <label for="bake">Bake:</label>
+                    <input type="radio" id="bake" name="cookStyle">
+
+                    <button id="submit4" class="btnStyling submit">Add</button>
+                </div>
+            </div>
+
+            <div id="item5" class="item5 foodBox">
+                <h3>One of Those People</h3>
+                <p>Pineapples, Olives, Mushrooms. </p>
+
+                <label for="vegan">Vegan?</label>
+                <input type="checkbox" id="vegan" name="cookStyle">
+                <label for="combo">Combo + $2</label>
+                <input type="checkbox" id="combo" name="cookStyle">
+
+                <div class="cooking-submit">
+
+                    <label for="deepFry">Deep Fry:</label>
+                    <input type="radio" id="deepFryRadio4" class="deepFryRadio" name="cookStyle">
+
+                    <label for="airFry">Air Fry:</label>
+                    <input type="radio" id="airFry" name="cookStyle">
+
+                    <label for="bake">Bake:</label>
+                    <input type="radio" id="bake" name="cookStyle">
+
+                    <button id="submit5" class="btnStyling submit">Add</button>
+                </div>
+            </div>
+
+            <div id="item6" class="item6 foodBox">
+                <h3>Quit your Hawaiian'in</h3>
+                <p>Hawaiian style: Pineapples, Ham, Bacon. </p>
+
+                <label for="vegan">Vegan?</label>
+                <input type="checkbox" id="vegan" name="cookStyle">
+                <label for="combo">Combo + $2</label>
+                <input type="checkbox" id="combo" name="cookStyle">
+
+                <div class="cooking-submit">
+
+                    <label for="deepFry">Deep Fry:</label>
+                    <input type="radio" id="deepFryRadio5" class="deepFryRadio" name="cookStyle">
+
+                    <label for="airFry">Air Fry:</label>
+                    <input type="radio" id="airFry" name="cookStyle">
+
+                    <label for="bake">Bake:</label>
+                    <input type="radio" id="bake" name="cookStyle">
+
+                    <button id="submit" class="btnStyling submit">Add</button>
+                </div>
+            </div>
+
+            <div id="item7" class="item7 foodBox">
+                <h3>Indecisive | What do you think?</h3>
+                <p>Pepperoni.</p>
+
+                <label for="vegan">Vegan?</label>
+                <input type="checkbox" id="vegan" name="cookStyle">
+                <label for="combo">Combo + $2</label>
+                <input type="checkbox" id="combo" name="cookStyle">
+
+                <div class="cooking-submit">
+
+                    <label for="deepFry">Deep Fry:</label>
+                    <input type="radio" id="deepFryRadio6" class="deepFryRadio" name="cookStyle">
+
+                    <label for="airFry">Air Fry:</label>
+                    <input type="radio" id="airFry" name="cookStyle">
+
+                    <label for="bake">Bake:</label>
+                    <input type="radio" id="bake" name="cookStyle">
+
+                    <button id="submit" class="btnStyling submit">Add</button>
+                </div>
+            </div>
+
+            <div id="item8" class="item8 foodBox">
+                <h3>Create your own (4 item max)</h3>
+                <p>Feeling Creative? Make something that will please your palette. </p>
+
+                <label for="vegan">Vegan?</label>
+                <input type="checkbox" id="vegan" name="cookStyle">
+                <label for="combo">Combo + $2</label>
+                <input type="checkbox" id="combo" name="cookStyle">
+
+                <div class="cooking-submit">
+
+                    <label for="deepFry">Deep Fry:</label>
+                    <input type="radio" id="deepFryRadio7" class="deepFryRadio" name="cookStyle">
+
+                    <label for="airFry">Air Fry:</label>
+                    <input type="radio" id="airFry" name="cookStyle">
+
+                    <label for="bake">Bake:</label>
+                    <input type="radio" id="bake" name="cookStyle">
+
+                    <button id="submit" class="btnStyling submit">Add</button>
+                </div>
+            </div>            
+
+         </section> 
+
+         <section class="empanadaMenu containerStyling">
+            <h1>Empanada Menu: $7.99</h1>
+         <p> * All items can be substituted for vegan variants. </p>
+
+            <div id="item9" class="item9 foodBox">
+                <h3>Cheeseburger</h3>
+                <p> Burger Patty, Tomato sauce, Cheese, Onion, and Pickles? </p>
+
+                <label for="vegan">Vegan?</label>
+                <input type="checkbox" id="vegan" name="cookStyle">
+                <label for="combo">Combo + $2</label>
+                <input type="checkbox" id="combo" name="cookStyle">
+
+                <div class="cooking-submit">
+
+                    <label for="deepFry">Deep Fry:</label>
+                    <input type="radio" id="deepFryRadio8" class="deepFryRadio" name="cookStyle">
+
+
+                    <label for="airFry">Air Fry:</label>
+                    <input type="radio" id="airFry" name="cookStyle">
+
+                    <label for="bake">Bake:</label>
+                    <input type="radio" id="bake" name="cookStyle">
+
+                    <button id="submit" class="btnStyling submit">Add</button>
+                </div>
+            </div>
+
+            <div id="item10" class="item10 foodBox">
+                <h3>Mac Attack</h3>
+                <p>Filled with a three-blend Mac and Cheese </p>
+
+                <label for="vegan">Vegan?</label>
+                <input type="checkbox" id="vegan" name="cookStyle">
+                <label for="combo">Combo + $2</label>
+                <input type="checkbox" id="combo" name="cookStyle">
+
+                <div class="cooking-submit">
+
+                    <label for="deepFry">Deep Fry:</label>
+                    <input type="radio" id="deepFryRadio9" class="deepFryRadio" name="cookStyle">
+
+                    <label for="airFry">Air Fry:</label>
+                    <input type="radio" id="airFry" name="cookStyle">
+
+                    <label for="bake">Bake:</label>
+                    <input type="radio" id="bake" name="cookStyle">
+
+                    <button id="submit" class="btnStyling submit">Add</button>
+                </div>
+            </div>
+
+            <div id="item11" class="item11 foodBox">
+                <h3>Samosa Style</h3>
+                <p>Traditional Potato, Onion, and Peas Samosa </p>
+
+                <label for="vegan">Vegan?</label>
+                <input type="checkbox" id="vegan" name="cookStyle">                
+                <label for="combo">Combo + $2</label>
+                <input type="checkbox" id="combo" name="cookStyle">
+
+                <div class="cooking-submit">
+
+                    <label for="deepFry">Deep Fry:</label>
+                    <input type="radio" id="deepFryRadio10" class="deepFryRadio" name="cookStyle">
+
+                    <label for="airFry">Air Fry:</label>
+                    <input type="radio" id="airFry" name="cookStyle">
+
+                    <label for="bake">Bake:</label>
+                    <input type="radio" id="bake" name="cookStyle">
+
+                    <button id="submit" class="btnStyling submit">Add</button>
+                </div>
+            </div>
+
+         </section>  
+
+         <section class="dessertMenu containerStyling">
+            <h1>Dessert Menu: $4.99</h1>
+            <div id="item12" class="item12 foodBox">
+                <h3>Caramel Apple Pie Empanada</h3>
+                <p>Twist on Traditional Apple Pie. </p>
+
+                <div class="cooking-submit">
+
+                    <label for="deepFry">Deep Fry:</label>
+                    <input type="radio" id="deepFryRadio11" class="deepFryRadio" name="cookStyle">
+
+                    <label for="airFry">Air Fry:</label>
+                    <input type="radio" id="airFry" name="cookStyle">
+
+                    <label for="bake">Bake:</label>
+                    <input type="radio" id="bake" name="cookStyle">
+
+                    <button id="submit" class="btnStyling submit">Add</button>
+                </div>
+            </div>            
+            <div id="item13" class="item13 foodBox">
+                <h3>Peach Cobbler Empanada</h3>
+                <p> Twist on Traditional Peach Cobbler.  </p>
+
+                <div class="cooking-submit">
+
+                    <label for="deepFry">Deep Fry:</label>
+                    <input type="radio" id="deepFryRadio12" class="deepFryRadio" name="cookStyle">
+
+                    <label for="airFry">Air Fry:</label>
+                    <input type="radio" id="airFry" name="cookStyle">
+
+                    <label for="bake">Bake:</label>
+                    <input type="radio" id="bake" name="cookStyle">
+
+                    <button id="submit" class="btnStyling submit">Add</button>
+                </div>
+            </div>
+
+            <div id="item14" class="item14 foodBox">
+                <h3>Churro Minis</h3>
+                <p>8pcs </p>
+
+                <div class="cooking-submit">
+
+                    <label for="deepFry">Deep Fry:</label>
+                    <input type="radio" id="deepFryRadio13" class="deepFryRadio" name="cookStyle">
+
+                    <label for="airFry">Air Fry:</label>
+                    <input type="radio" id="airFry" name="cookStyle">
+
+                    <button id="submit" class="btnStyling submit">Add</button>
+                </div>
+            </div>
+
+            </section>
+    
+        </div>
+
+    </main>
+    
+</body>
+</html>
